@@ -146,12 +146,12 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: message_0
+      name: Start Message_0
       rect:
         serializedVersion: 2
-        x: 2
+        x: 0
         y: 218
-        width: 180
+        width: 184
         height: 49
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -159,252 +159,54 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 3e2fec9431d226ee0800000000000000
-      internalID: -1269402584099130653
+      spriteID: dacd3dfe544854865947307f58649715
+      internalID: -680810128
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: message_1
+      name: Start Message_1
       rect:
         serializedVersion: 2
         x: 0
-        y: 122
-        width: 65
-        height: 44
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 4f96737c95166f1e0800000000000000
-      internalID: -2164435532682663436
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: message_2
-      rect:
-        serializedVersion: 2
-        x: 67
         y: 114
-        width: 117
-        height: 52
+        width: 184
+        height: 55
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 86c779516a6e6a210800000000000000
-      internalID: 1344015139817880680
+      spriteID: b0c9f1a4ec6b94b75a2f622488ff8d4c
+      internalID: -1095454656
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: message_3
+      name: Start Message_2
       rect:
         serializedVersion: 2
-        x: 70
-        y: 69
-        width: 12
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: d428751693105e2b0800000000000000
-      internalID: -5556033219333750195
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: message_4
-      rect:
-        serializedVersion: 2
-        x: 74
-        y: 73
-        width: 36
-        height: 26
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 608e8576e9cb79350800000000000000
-      internalID: 6023490415156062214
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: message_5
-      rect:
-        serializedVersion: 2
-        x: 70
-        y: 65
-        width: 8
-        height: 6
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: ce14805574e1eb500800000000000000
-      internalID: 413801507482780140
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: message_6
-      rect:
-        serializedVersion: 2
-        x: 82
-        y: 45
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 8e55cf3fbae14cef0800000000000000
-      internalID: -88912368758925848
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: message_7
-      rect:
-        serializedVersion: 2
-        x: 34
-        y: 13
-        width: 44
-        height: 20
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: cad15cbbdd7a677d0800000000000000
-      internalID: -2920962737523319380
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: message_8
-      rect:
-        serializedVersion: 2
-        x: 80
-        y: 27
-        width: 6
-        height: 6
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 0b4595fc9022a0d60800000000000000
-      internalID: 7857129925430039728
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: message_9
-      rect:
-        serializedVersion: 2
-        x: 82
+        x: 0
         y: 0
-        width: 22
-        height: 37
+        width: 184
+        height: 99
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 1d6f6254aa321e160800000000000000
-      internalID: 7052957705650501329
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: message_10
-      rect:
-        serializedVersion: 2
-        x: 94
-        y: 27
-        width: 6
-        height: 6
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 73a374ebf3218e620800000000000000
-      internalID: 2803510833022712375
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: message_11
-      rect:
-        serializedVersion: 2
-        x: 106
-        y: 13
-        width: 44
-        height: 20
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: eff356ed8f8806690800000000000000
-      internalID: -7610932767791693826
+      spriteID: 7bd079469da234d18835c08f10cb517b
+      internalID: 1116581371
       vertices: []
       indices: 
       edges: []
@@ -413,7 +215,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: e43305462ae324bd58dc1f8cac4b18b6
     internalID: 0
     vertices: []
     indices: 
@@ -423,6 +225,9 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
+      Start Message_0: -680810128
+      Start Message_1: -1095454656
+      Start Message_2: 1116581371
       message_0: -1269402584099130653
       message_1: -2164435532682663436
       message_10: 2803510833022712375

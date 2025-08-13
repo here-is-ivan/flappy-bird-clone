@@ -16,11 +16,11 @@ public class PipeSpawner : MonoBehaviour
 
     private void Update()
     {
-        if (_timeToSpawn < 0 && gameState.IsGameRunning)
+        if (_timeToSpawn < 0 && gameState.isGameRunning)
         {
+            _timeToSpawn = spawnInterval;
             var spawnPoint = spawnPoints[Random.Range(0, spawnPoints.Length)];
             Instantiate(pipe, spawnPoint.position, spawnPoint.rotation);
-            _timeToSpawn = spawnInterval;
         }
 
         _timeToSpawn -= Time.deltaTime;

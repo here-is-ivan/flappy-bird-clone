@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 493161679461812269}
   - component: {fileID: 3312840927916207726}
   - component: {fileID: 6319655064505675639}
-  - component: {fileID: 3988286370496435337}
+  - component: {fileID: 2734832420767354176}
   m_Layer: 0
   m_Name: Top
   m_TagString: Untagged
@@ -135,7 +135,7 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1.04, y: 6.4}
   m_EdgeRadius: 0
---- !u!114 &3988286370496435337
+--- !u!114 &2734832420767354176
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -144,11 +144,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 2093670679548983227}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 76b11d03576d942dbb9b8dc2744b4c51, type: 3}
+  m_Script: {fileID: 11500000, guid: a078c0d3b778c448d851e17b60572d9c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  movingSpeed: 0
---- !u!1 &4110864044219594022
+--- !u!1 &3213264792226499967
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -156,39 +155,38 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 3376694360959703145}
-  - component: {fileID: 2308555280263346345}
-  - component: {fileID: 3974962936322216843}
+  - component: {fileID: 1423624568660265778}
+  - component: {fileID: 5134577946648238659}
+  - component: {fileID: 1589548209123330901}
   m_Layer: 0
-  m_Name: PIpe Gate
+  m_Name: Score Collider
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &3376694360959703145
+--- !u!4 &1423624568660265778
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4110864044219594022}
+  m_GameObject: {fileID: 3213264792226499967}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 3748302943919886108}
-  m_Father: {fileID: 0}
+  m_Children: []
+  m_Father: {fileID: 3376694360959703145}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!61 &2308555280263346345
+--- !u!61 &5134577946648238659
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4110864044219594022}
+  m_GameObject: {fileID: 3213264792226499967}
   m_Enabled: 1
   serializedVersion: 3
   m_Density: 1
@@ -212,7 +210,7 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
@@ -226,8 +224,54 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 0.27, y: 2}
+  m_Size: {x: 0.1, y: 2}
   m_EdgeRadius: 0
+--- !u!114 &1589548209123330901
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3213264792226499967}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c08fec49422f24ac2ac5a29d7be06c3e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &4110864044219594022
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3376694360959703145}
+  - component: {fileID: 3974962936322216843}
+  m_Layer: 0
+  m_Name: PIpe Gate
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3376694360959703145
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4110864044219594022}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 3748302943919886108}
+  - {fileID: 1423624568660265778}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &3974962936322216843
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -240,6 +284,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 76b11d03576d942dbb9b8dc2744b4c51, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  gameState: {fileID: 11400000, guid: 3399ebb15e5094d06af79896c95562b3, type: 2}
   movingSpeed: 2.5
 --- !u!1 &7204648095784543569
 GameObject:
@@ -285,7 +330,7 @@ GameObject:
   - component: {fileID: 576851959285068505}
   - component: {fileID: 3045483249620307824}
   - component: {fileID: 4366614081260454767}
-  - component: {fileID: 1701411967492096615}
+  - component: {fileID: 1599303481814098124}
   m_Layer: 0
   m_Name: Bottom
   m_TagString: Untagged
@@ -409,7 +454,7 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1.04, y: 6.4}
   m_EdgeRadius: 0
---- !u!114 &1701411967492096615
+--- !u!114 &1599303481814098124
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -418,7 +463,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 9215942872854717418}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 76b11d03576d942dbb9b8dc2744b4c51, type: 3}
+  m_Script: {fileID: 11500000, guid: a078c0d3b778c448d851e17b60572d9c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  movingSpeed: 0
